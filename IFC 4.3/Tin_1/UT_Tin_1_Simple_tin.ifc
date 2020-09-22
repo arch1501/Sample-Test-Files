@@ -27,7 +27,7 @@ DATA;
 #20 = IFCDIRECTION((0., 1., 0.));
 #21 = IFCSITE('0wc4S7Rk9Es9RxxEiOM1v4', #2, 'Default Site', 'Description of Default Site', $, #15, $, $, .ELEMENT., $, $, $, $, $);
 #22 = IFCRELAGGREGATES('1$hoy2eIHDu84pAnC7YpST', #2, 'ProjectContainer', 'ProjectContainer for Sites', #1, (#21));
-#23 = IFCBUILDING('0CS2tzCgn7_hLORNb6m6iA', #2, 'Simple Tin IfcGeographicElement', 'Description of Simple Tin IfcGeographicElement', $, #15, $, $, .ELEMENT., $, $, $);
+#23 = IFCFACILITY('0CS2tzCgn7_hLORNb6m6iA', #2, 'Simple Tin IfcGeographicElement', 'Description of Simple Tin IfcGeographicElement', $, #15, $, $, .ELEMENT., $, $, $);
 #24 = IFCRELAGGREGATES('3NdPiA2CT0Ee5gfcWvUUre', #2, 'SiteContainer', 'SiteContainer For All Models', #21, (#23));
 #25 = IFCRELCONTAINEDINSPATIALSTRUCTURE('352YHJEKT0PO71YdavdYz9', #2, 'Building Container', 'BuildingContainer for Elements', (#26), #23);
 #26 = IFCSOLIDSTRATUM('2Va6yZw5f9axNpbpeW27KM', #2, 'SolidStratum GROUND', '12d Tin', 'Tin', #15, #27, $);
