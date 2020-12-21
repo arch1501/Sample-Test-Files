@@ -24,7 +24,7 @@ DATA;
 #17 = IFCCARTESIANPOINT((0., 0., 0.));
 #18 = IFCDIRECTION((0., 0., 1.));
 #19 = IFCDIRECTION((1., 0., 0.));
-#20 = IFCDIRECTION((0., 1., 0.));
+#20 = IFCDIRECTION((0., 1.));
 #21 = IFCSITE('3RVfszZc18ThbUbFpF8dRj', #2, 'Default Site', 'Description of Default Site', $, #15, $, $, .ELEMENT., $, $, $, $, $);
 #22 = IFCRELAGGREGATES('0Cx2iigoLDWOj7v8qt6UdY', #2, 'ProjectContainer', 'ProjectContainer for Sites', #1, (#21));
 #23 = IFCFACILITY('0RUiJoNe96uBpS3JZti5O2', #2, 'method a fill', 'Description of method a fill', $, #15, $, $, .ELEMENT.);
